@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 550px;
+    font-family: 'Inter', sans-serif;
+    background: url('../images/marsh.jpg');
+    background-size: cover;
+}
+
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    background: #006699;
+    color: #ffffff;
+    height: 50px; 
+}
+
+.header--logo {
+    width: 15px; 
+    margin-right: 10px;
+}
+
+.card {
+    padding: 1.5em;
+    display: flex;
+    align-self: center;
+    background: #ffffff;
+    justify-content: center;
+}
+
+.card--date {
+    font-weight: 700;
+}
+
+.card--photo {
+    height: 168px;
+    align-self: center;
+    border-radius: 5px;
+}
+
+.card--pin {
+    width: 10px;
+    margin: .2em;
+}
+
+.card--location,
+.card--google-maps,
+.card--title {
+    margin: 0;
+}
+
+.card--location {
+    text-transform: uppercase;
+}
+
+.card--google-maps {
+    padding-left: 1em;
+}
+
+.card--title {
+    font-size: 25px; 
+}
+
+.header-section,
+.card--description,
+.card--date,
+.card--location,
+.card--google-maps,
+.card--description {
+    font-size: 10px;
+}
