@@ -6,7 +6,7 @@ body {
     margin: 0 auto;
     max-width: 550px;
     font-family: 'Inter', sans-serif;
-    background: url('./images/marsh.jpg');
+    background: url('images/marsh.jpg');
     background-size: cover;
 }
 
